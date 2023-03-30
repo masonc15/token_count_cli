@@ -1,6 +1,6 @@
 # Token Count CLI
 
-`token_count_cli.py` is a Python command-line tool that calculates the token count in files within a directory, displaying a tree structure of folders and files within the specified directory, sorted by their token count. Its primary purpose is to quickly assess if a directory or repository's contents can be loaded into GPT-4 (which has a token limit of 8,000 tokens) by analyzing the cumulative token count. Furthermore, it helps identify any unnecessary files that might skew the token distribution, allowing you to make better decisions on excluding those files before loading the content into GPT-4.
+`token_count_cli.py` is a handy Python command-line tool that counts tokens in files across a directory and presents a clear tree structure, organized by token count. The main goal is to quickly determine if the contents of a directory or repository will fit within GPT-4's 8,000-token limit. By identifying files that might disproportionately contribute to the token count, you can decide which files to exclude before loading the content into GPT-4.
 
 ## Features
 
